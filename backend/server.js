@@ -18,8 +18,8 @@ mongoose
   .then(() => console.log("Database Connected "))
   .catch((err) => console.log(err));
 
-const exercisesRouter = require('./routes/exercises ');
-const usersRouter = require('./routes/users');
+const exercisesRouter = require('./routes /exercises');
+const usersRouter = require('./routes /users');
 
 app.use("/exercises", exercisesRouter);
 app.use("/users", usersRouter);
